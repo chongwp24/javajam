@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif ;
+    background-image: url('New folder/background.gif');
+}
+
+    header {
+        background-color: #d2b48c;
+        /*text-align: center;*/
+        height: 150px;
+        background-image: url('New folder/javajamlogo.jpg');
+        background-repeat: no-repeat;
+        display: block;
+    }
+
+    h1 {
+        line-height: 200%; /*Spacing. 200% is double spacing */
+        padding-top: 45px;
+        padding-left: 220px;
+        font-size: 3em;
+    }
+
+    nav{
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5em;
+        padding-top: 10px;
+        float: left; /*to float the element on the left side of the container*/
+        width: 200px;
+        display: block;
+    }
+
+    nav ul{
+        list-style-type: none;
+        padding-left: 0;
+
+    }
+
+    nav a{
+        text-decoration: none;
+    }
+
+    nav a:link{
+        color: #fef6c2;
+    }
+
+    nav a:visited{
+        color: #d2b48c;
+    }
+
+    nav a:hover{
+        color: #cc9933;
+    }
+
+    footer {
+        background-color: #d2b48c;
+        font-size:  .60em;
+        font-style: italic;
+        text-align: center;
+        padding-bottom: 10px;
+        border-top: 2px solid #221811;
+        display: block;
+    }
+
+
+    #wrapper {
+        width: 80%; /*the width of the content of the elements*/
+        margin-left: auto;/*configure the space in the left margin of the element*/
+        margin-right: auto;
+        background-color: #231814;
+        min-width: 980px;
+        max-width: 1280px;
+        box-shadow: inset 3px 3px #333333
+    } 
+
+    h4{
+        background-color: #d2b48c;
+        font-size: 1.2em;
+        padding-left: .5em;
+        padding-bottom: 0;
+        text-transform: uppercase;
+        border-bottom: 2px solid #231814;
+        clear: left;
+    }
+
+    main{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 2em;
+        padding-top: 0;
+        margin-left: 200px;
+        background-color: #fef6c2;
+    }
+
+    main h2, main h3, main h4, main div , main p, main ul, main dl {
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+
+    .details{
+        padding-left: 20%;
+        padding-right: 20%;
+        overflow: auto;
+    }
+
+    img{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #heroroad {
+        background-image: url(New\ folder/heroroad.jpg);
+        background-size: 100% 100%;
+        height: 250px;
+    }
+
+    #heromugs{
+        background-image: url(New\ folder/heromugs.jpg);
+        background-size: 100% 100%;
+        height: 250px;
+     }
+
+     #heroguitar{
+        background-image: url(New\ folder/heroguitar.jpg);
+        background-size: 100% 100%;
+        height: 250px;
+
+     }
+
+     .floatleft {
+        float: left;
+        padding-right: 2em;
+        padding-bottom: 2em;
+     }
+
+     table{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing: 0%;
+        background-color: #ffffcc;
+     }
+
+     td,th{
+        padding: 10px;
+     }
+
+     tr:nth-of-type(odd){
+        background-color: #d2b08e;
+     }
+
+     form{
+        padding: 2em;
+     }
+
+     label{
+        float: left;
+        display: block;
+        text-align: right;
+        width: 8em;
+        padding-right: 1em;
+     }
+
+     input,textarea{
+        display: block;
+        margin-bottom: 1em;
+     }
+
+     #mySubmit {
+        margin-left: 9.5em;
+     }
+
+     #herojobs{
+        background-image: url('New\ folder/herojobs.jpg');
+        background-size: 100% 100%;
+        height: 250px;
+     }
